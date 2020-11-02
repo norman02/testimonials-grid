@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,7 +19,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 10px;
+  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -51,5 +52,28 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  font-family: "Barlow Semi Condensed, sans-serif";
+  font-weight: 500;
+  font-size: 13px;
+  background-color: #ecf2f8;
+  padding: 72px 24px;
+}
+
+article {
+  background-color: white;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 /*# sourceMappingURL=main.css.map */
