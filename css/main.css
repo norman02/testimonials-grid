@@ -55,14 +55,14 @@ table {
 }
 
 body {
-  font-family: "Barlow Semi Condensed, sans-serif";
-  font-weight: 500;
-  font-size: 13px;
   background-color: #ecf2f8;
   padding: 72px 24px;
 }
 
 article {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
   background-color: white;
   margin-bottom: 24px;
   border-radius: 8px;
@@ -71,10 +71,39 @@ article {
   padding: 30px;
 }
 
-.user {
+article .user {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.2;
+}
+
+article .user .avatar {
+  width: 28px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+article .user .name {
+  font-weight: 600;
+}
+
+article .user .title {
+  font-size: 11px;
+}
+
+article .thesis {
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+article .testimony {
+  padding-top: 45px;
 }
 
 .attribution {
