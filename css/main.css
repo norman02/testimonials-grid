@@ -66,8 +66,8 @@ article {
   background-color: white;
   margin-bottom: 24px;
   border-radius: 8px;
-  -webkit-box-shadow: 4px 6px 5px #48556a19;
-          box-shadow: 4px 6px 5px #48556a19;
+  -webkit-box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
+          box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
   padding: 30px;
 }
 
@@ -79,6 +79,7 @@ article .user {
       -ms-flex-align: center;
           align-items: center;
   line-height: 1.2;
+  color: #48556a;
 }
 
 article .user .avatar {
@@ -94,6 +95,7 @@ article .user .name {
 
 article .user .title {
   font-size: 11px;
+  color: rgba(72, 85, 106, 0.5);
 }
 
 article .thesis {
@@ -103,7 +105,71 @@ article .thesis {
 }
 
 article .testimony {
-  padding-top: 45px;
+  padding-top: 25px;
+  color: rgba(72, 85, 106, 0.7);
+}
+
+.clifford {
+  background-color: #7541c8;
+  color: white;
+}
+
+.clifford .user .avatar {
+  border: 2px solid #a674f1;
+}
+
+.clifford .user .name {
+  color: white;
+}
+
+.clifford .user .title {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.clifford .testimony {
+  color: rgba(207, 207, 207, 0.7);
+}
+
+.walters {
+  background-color: #48556a;
+  color: white;
+}
+
+.walters .user .avatar {
+  border: 2px solid #48556a;
+}
+
+.walters .user .name {
+  color: white;
+}
+
+.walters .user .title {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.walters .testimony {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.abrams {
+  background-color: #19212e;
+  color: white;
+}
+
+.abrams .user .avatar {
+  border: 2px solid #a674f1;
+}
+
+.abrams .user .name {
+  color: white;
+}
+
+.abrams .user .title {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.abrams .testimony {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .attribution {
