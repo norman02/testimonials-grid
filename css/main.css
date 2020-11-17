@@ -66,8 +66,8 @@ article {
   background-color: white;
   margin-bottom: 24px;
   border-radius: 8px;
-  -webkit-box-shadow: 4px 6px 5px #48556a19;
-          box-shadow: 4px 6px 5px #48556a19;
+  -webkit-box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
+          box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
   padding: 30px;
 }
 
@@ -110,12 +110,12 @@ article .testimony {
 }
 
 .clifford {
-  background-color: #733FC8;
+  background-color: #7541c8;
   color: white;
 }
 
 .clifford .user .avatar {
-  border: 2px solid #A775F1;
+  border: 2px solid #a674f1;
 }
 
 .clifford .user .name {
@@ -148,7 +148,7 @@ article .testimony {
 }
 
 .walters .testimony {
-  color: rgba(207, 207, 207, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .abrams {
@@ -157,7 +157,7 @@ article .testimony {
 }
 
 .abrams .user .avatar {
-  border: 2px solid #A775F1;
+  border: 2px solid #a674f1;
 }
 
 .abrams .user .name {

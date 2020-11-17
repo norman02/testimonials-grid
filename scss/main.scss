@@ -68,12 +68,12 @@ article {
         }
 
         .title {
-            color: hsla(0, 0%, 100%, 0.50)
+            color: $faded-white;
         }
     }
 
     .testimony {
-        color: hsla(0, 0%, 81%, .7)
+        color: $semi-faded-light-gray;
     }
 }
 
@@ -91,13 +91,13 @@ article {
         }
 
         .title {
-            color: hsla(0, 0%, 100%, 0.50);
+            color: $faded-white;
         }
  
     }
 
     .testimony {
-        color: hsla(0, 0%, 81%, .7);
+        color: $semi-faded-white;
     }
 }
 
@@ -115,11 +115,11 @@ article {
         }
 
         .title {
-            color: hsla(0, 0%, 100%, 0.50);
+            color: $faded-white;
         }
     }
     .testimony {
-        color: hsla(0, 0%, 100%, 0.70);
+        color: $semi-faded-white;
     }
 }
 
