@@ -19,3 +19,7 @@ $light-grayish-blue: hsl(210, 46%, 95%);
 $shadow: hsla(184, 9%, 31%, 0.25);
 
 $primary-font: 'Barlow Semi Condensed, sans-serif';
+
+@mixin border ($color) {
+    border: 2px solid $color; 
+}
