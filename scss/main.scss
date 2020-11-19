@@ -6,123 +6,23 @@ body {
     padding: 72px 24px;
 }
 
-article {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 13px; 
-    background-color: $white;
-    margin-bottom: 24px;
-    border-radius: 8px;
-    box-shadow:  4px 6px 5px $shadow;
-    padding: 30px;
-
-    .user {
-        display: flex;
-        align-items: center;
-        line-height: 1.2;
-        color: $very-dark-grayish-blue;
-    
-        .avatar{
-            width: 28px;
-            border-radius: 50%;
-            margin-right: 15px;
-            @include border($white)
-        }
-        .name{
-           font-weight: 600; 
-    
-        }
-        .title{
-            font-size: 11px;
-            color: $faded-dark-blue;
-        }
-    
-    }
-
-    .thesis {
-        padding-top: 25px;
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-    .testimony {
-        padding-top: 25px;
-        color: $semi-faded-dark-blue;
-    }
-
-    
+.article-one {
+    @include article-content();
 }
 
-.clifford {
-    background-color: $moderate-violet;
-    color: $white;
-
-    .user {
-        .avatar {
-            @include border ($soft-violet);
-        }
-
-        .name {
-            color: $white;
-        }
-
-        .title {
-            color: $faded-white;
-        }
-    }
-
-    .testimony {
-        color: $semi-faded-light-gray;
-    }
+.article-two {
+    @include article-content();
+}
+.article-three {
+    @include article-content();
+}
+.article-four {
+    @include article-content();
 }
 
-.walters {
-    background-color: $very-dark-grayish-blue;
-    color: $white;
-
-    .user {
-        .avatar {
-            @include border($very-dark-grayish-blue);
-        }
-
-        .name {
-            color: $white;
-        }
-
-        .title {
-            color: $faded-white;
-        }
- 
-    }
-
-    .testimony {
-        color: $semi-faded-white;
-    }
+.article-five {
+    @include article-content();
 }
-
-.abrams {
-    background-color: $very-dark-blackish-blue;
-    color: $white;
-
-    .user {
-        .avatar {
-            @include border($soft-violet);
-        }
-
-        .name {
-            color: $white;
-        }
-
-        .title {
-            color: $faded-white;
-        }
-    }
-    .testimony {
-        color: $semi-faded-white;
-    }
-}
-
-
 
 .attribution {
     font-size: 11px;
