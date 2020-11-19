@@ -23,3 +23,51 @@ $primary-font: 'Barlow Semi Condensed, sans-serif';
 @mixin border ($color) {
     border: 2px solid $color; 
 }
+
+@mixin article-content ($bg-color: red, $border-color: blue, $name-color: blue, $title-color:blue, $header-color: blue, $qoute-color:blue)  {
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 13px; 
+    background-color: $bg-color;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    box-shadow:  4px 6px 5px $shadow;
+    padding: 30px;
+
+    .user {
+        display: flex;
+        align-items: center;
+        line-height: 1.2;
+        .avatar {
+            width: 28px;
+            border-radius: 50%;
+            margin-right: 15px;
+            @include border($border-color);
+        }
+
+        .name {
+            font-weight: 600; 
+            color: $name-color;
+        }
+
+        .title {
+            font-size: 11px;
+            color: $title-color;
+        }
+
+        
+    }
+
+    .thesis {
+        color: $header-color;
+        padding-top: 25px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .testimony {
+        padding-top: 25px;
+        color: $qoute-color;
+    }
+}
