@@ -63,7 +63,7 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 500;
   font-size: 13px;
-  background-color: red;
+  background-color: #7541c8;
   margin-bottom: 24px;
   border-radius: 8px;
   -webkit-box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
@@ -85,21 +85,21 @@ body {
   width: 28px;
   border-radius: 50%;
   margin-right: 15px;
-  border: 2px solid blue;
+  border: 2px solid #a674f1;
 }
 
 .article-one .user .name {
   font-weight: 600;
-  color: blue;
+  color: white;
 }
 
 .article-one .user .title {
   font-size: 11px;
-  color: blue;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .article-one .thesis {
-  color: blue;
+  color: white;
   padding-top: 25px;
   font-size: 20px;
   font-weight: 600;
@@ -107,14 +107,14 @@ body {
 
 .article-one .testimony {
   padding-top: 25px;
-  color: blue;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .article-two {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 500;
   font-size: 13px;
-  background-color: red;
+  background-color: #48556a;
   margin-bottom: 24px;
   border-radius: 8px;
   -webkit-box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
@@ -136,21 +136,21 @@ body {
   width: 28px;
   border-radius: 50%;
   margin-right: 15px;
-  border: 2px solid blue;
+  border: 2px solid #48556a;
 }
 
 .article-two .user .name {
   font-weight: 600;
-  color: blue;
+  color: white;
 }
 
 .article-two .user .title {
   font-size: 11px;
-  color: blue;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .article-two .thesis {
-  color: blue;
+  color: white;
   padding-top: 25px;
   font-size: 20px;
   font-weight: 600;
@@ -158,14 +158,14 @@ body {
 
 .article-two .testimony {
   padding-top: 25px;
-  color: blue;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .article-three {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 500;
   font-size: 13px;
-  background-color: red;
+  background-color: white;
   margin-bottom: 24px;
   border-radius: 8px;
   -webkit-box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
@@ -187,21 +187,21 @@ body {
   width: 28px;
   border-radius: 50%;
   margin-right: 15px;
-  border: 2px solid blue;
+  border: 2px solid white;
 }
 
 .article-three .user .name {
   font-weight: 600;
-  color: blue;
+  color: #48556a;
 }
 
 .article-three .user .title {
   font-size: 11px;
-  color: blue;
+  color: rgba(72, 85, 106, 0.5);
 }
 
 .article-three .thesis {
-  color: blue;
+  color: #48556a;
   padding-top: 25px;
   font-size: 20px;
   font-weight: 600;
@@ -209,14 +209,14 @@ body {
 
 .article-three .testimony {
   padding-top: 25px;
-  color: blue;
+  color: rgba(72, 85, 106, 0.7);
 }
 
 .article-four {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 500;
   font-size: 13px;
-  background-color: red;
+  background-color: #19212e;
   margin-bottom: 24px;
   border-radius: 8px;
   -webkit-box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
@@ -238,21 +238,21 @@ body {
   width: 28px;
   border-radius: 50%;
   margin-right: 15px;
-  border: 2px solid blue;
+  border: 2px solid #a674f1;
 }
 
 .article-four .user .name {
   font-weight: 600;
-  color: blue;
+  color: white;
 }
 
 .article-four .user .title {
   font-size: 11px;
-  color: blue;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .article-four .thesis {
-  color: blue;
+  color: white;
   padding-top: 25px;
   font-size: 20px;
   font-weight: 600;
@@ -260,14 +260,14 @@ body {
 
 .article-four .testimony {
   padding-top: 25px;
-  color: blue;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .article-five {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 500;
   font-size: 13px;
-  background-color: red;
+  background-color: white;
   margin-bottom: 24px;
   border-radius: 8px;
   -webkit-box-shadow: 4px 6px 5px rgba(72, 85, 86, 0.25);
@@ -289,21 +289,21 @@ body {
   width: 28px;
   border-radius: 50%;
   margin-right: 15px;
-  border: 2px solid blue;
+  border: 2px solid white;
 }
 
 .article-five .user .name {
   font-weight: 600;
-  color: blue;
+  color: #48556a;
 }
 
 .article-five .user .title {
   font-size: 11px;
-  color: blue;
+  color: rgba(72, 85, 106, 0.5);
 }
 
 .article-five .thesis {
-  color: blue;
+  color: #48556a;
   padding-top: 25px;
   font-size: 20px;
   font-weight: 600;
@@ -311,7 +311,7 @@ body {
 
 .article-five .testimony {
   padding-top: 25px;
-  color: blue;
+  color: rgba(72, 85, 106, 0.7);
 }
 
 .attribution {
