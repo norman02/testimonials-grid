@@ -75,9 +75,10 @@ article {
         grid-template-columns: auto auto;
         grid-gap: 24px;
         grid-template-areas: 
+        "five five"
         "one four"
         "three two"
-        "five five";
+        ;
     }
 }
 
