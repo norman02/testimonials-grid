@@ -7,21 +7,21 @@ body {
 }
 
 .article-one {
-    @include article-content();
+    @include article-content($moderate_violet, $soft-violet, $white, $faded-white, $white, $semi-faded-white);
 }
 
 .article-two {
-    @include article-content();
+    @include article-content($very-dark-grayish-blue, $very-dark-grayish-blue, $white, $faded-white, $white, $semi-faded-white );
 }
 .article-three {
-    @include article-content();
+    @include article-content($white, $white, $very-dark-grayish-blue, $faded-dark-blue, $very-dark-grayish-blue, $semi-faded-dark-blue);
 }
 .article-four {
-    @include article-content();
+    @include article-content($very-dark-blackish-blue, $soft-violet, $white, $faded-white, $white, $semi-faded-white);
 }
 
 .article-five {
-    @include article-content();
+    @include article-content($white, $white, $very-dark-grayish-blue, $faded-dark-blue, $very-dark-grayish-blue, $semi-faded-dark-blue);
 }
 
 .attribution {
