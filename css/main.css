@@ -250,8 +250,11 @@ article {
 
 @media screen and (min-width: 1024px) {
   .article-container {
+    margin: 50px 160px;
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 250px 250px 250px;
+        grid-template-columns: 250px 250px 250px;
     grid-column-gap: 24px;
         grid-template-areas: 'one one two five' 'three four four five';
   }
