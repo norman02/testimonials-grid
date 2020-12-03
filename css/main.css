@@ -259,4 +259,11 @@ article {
         grid-template-areas: 'one one two five' 'three four four five';
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .article-container {
+    max-width: 1100px;
+    margin: 250px auto;
+  }
+}
 /*# sourceMappingURL=main.css.map */
