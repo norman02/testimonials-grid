@@ -6,21 +6,57 @@ body {
     padding: 72px 24px;
 }
 
+
+
+article {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 13px; 
+    margin-bottom: 24px;
+    border-radius: 8px;
+    box-shadow:  4px 6px 5px $shadow;
+    padding: 30px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+
+    .avatar{
+        width: 28px;
+        border-radius: 50%;
+        margin-right: 15px; 
+    }
+
+    .name {
+        font-weight: 600; 
+    }
+    .title {
+        font-size: 11px;
+    }
+}
+
 .article-one {
     @include article-content($moderate_violet, $soft-violet, $white, $faded-white, $white, $semi-faded-white);
+    grid-area: one;
 }
 
 .article-two {
     @include article-content($very-dark-grayish-blue, $very-dark-grayish-blue, $white, $faded-white, $white, $semi-faded-white );
+    grid-area: two;
 }
 .article-three {
+    grid-area: three;
     @include article-content($white, $white, $very-dark-grayish-blue, $faded-dark-blue, $very-dark-grayish-blue, $semi-faded-dark-blue);
 }
 .article-four {
+    grid-area: four;
     @include article-content($very-dark-blackish-blue, $soft-violet, $white, $faded-white, $white, $semi-faded-white);
 }
 
 .article-five {
+    grid-area: five;
     @include article-content($white, $white, $very-dark-grayish-blue, $faded-dark-blue, $very-dark-grayish-blue, $semi-faded-dark-blue);
 }
 
@@ -31,4 +67,14 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@include media-lg {
+    .article-container {
+        display: grid;
+        grid-column-gap: 24px;
+        grid-template-areas: 
+        'one one two five'
+        'three four four five';
+    }
 }
