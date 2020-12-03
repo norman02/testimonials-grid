@@ -69,6 +69,18 @@ article {
     color: hsl(228, 45%, 44%);
 }
 
+@include media-md {
+    .article-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 24px;
+        grid-template-areas: 
+        "one four"
+        "three two"
+        "five five";
+    }
+}
+
 @include media-lg {
     .article-container {
         margin: 50px 160px;
